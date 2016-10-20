@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Figuras</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        div{
+            font-family: Century Gothic;
+        }
+    </style>
+    <body>
+        <div>
+            <div>
+                <form method="Post" action='AreaTriangulo'>
+                    <h1> Area Triangulo (Equilatero) </h1>
+                    <input type="number" name="Altura" placeholder="Altura del Triangulo" required="">
+                    <br><br>
+                    <input type="number" name="Base" placeholder="Base del triangulo" required="">
+                    <br><br>
+                    <input type="submit" value="Area">
+                </form>
+                <form method="Post" action="PerimetroTriangulo">
+                    <h1> Perimetro Triangulo (Equilatero) </h1>
+                    <input type="number" name="Base" placeholder="Base del triangulo" required="">
+                    <br><br>
+                    <input type="submit" value="Perimetro">
+                </form>
+            </div>
+            <div>
+                <form method="Post" action='AreaRectangulo'>
+                    <h1> Area Rectangulo</h1>
+                    <input type="number" name="Base" placeholder="Base del Rectangulo" required="">
+                    <br><br>
+                    <input type="number" name="Altura" placeholder="Altura del Rectangulo" required="">
+                    <br><br>
+                    <input type="submit" value="Area">
+                </form>
+
+                <form method="Post" action='PerimetroRectangulo'>
+                    <h1> Perimetro Rectangulo</h1>
+                    <input type="number" name="Base" placeholder="Base del Rectangulo" required="">
+                    <br><br>
+                    <input type="number" name="Altura" placeholder="Altura del Rectangulo" required="">
+                    <br><br>
+                    <input type="submit" value="Perimetro">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

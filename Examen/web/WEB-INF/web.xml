@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/Servlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+
+    <servlet>
+        <servlet-name>AreaTriangulo</servlet-name>
+        <servlet-class>servletHTML.AreaTriangulo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AreaTriangulo</servlet-name>
+        <url-pattern>/AreaTriangulo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AreaRectangulo</servlet-name>
+        <servlet-class>servletHTML.AreaRectangulo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AreaRectangulo</servlet-name>
+        <url-pattern>/AreaRectangulo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PerimetroTriangulo</servlet-name>
+        <servlet-class>servletHTML.PerimetroTriangulo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PerimetroTriangulo</servlet-name>
+        <url-pattern>/PerimetroTriangulo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PerimetroRectangulo</servlet-name>
+        <servlet-class>servletHTML.PerimetroRectangulo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PerimetroRectangulo</servlet-name>
+        <url-pattern>/PerimetroRectangulo</url-pattern>
+    </servlet-mapping>
+</web-app>
